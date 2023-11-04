@@ -44,7 +44,7 @@ class evamaria(Client):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '6620972'))
 API_HASH = environ.get('API_HASH', '3f6835286b03e000ab6d71b37cc35b92')
-BOT_TOKEN = environ.get('BOT_TOKEN', '5039178288:AAG86sxmDlTd4LG_8a40wyiM8FDgfAiTcmY')
+BOT_TOKEN = environ.get('BOT_TOKEN', '5652993501:AAEasaLU_rSNl05k9Z9eEgRVtyliEVIGWio')
 
 # Bot settings
 CACHE_TIME = 300
@@ -74,7 +74,7 @@ TMP_DOWNLOAD_DIRECTORY = environ.get("TMP_DOWNLOAD_DIRECTORY", "./DOWNLOADS/")
 COMMAND_HAND_LER = ("/")
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://ZerinaNOW:ZerinaNOW@cluster0.ux7gi1h.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_URI = environ.get('DATABASE_URI', "postgres://fl0user:YRdiXD1Gk5lH@ep-withered-flower-25469079.ap-southeast-1.aws.neon.fl0.io:5432/zerinadb?sslmode=require")
 DATABASE_NAME = environ.get('DATABASE_NAME', "ZerinaNOW")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 MONGO_URL = os.environ.get('MONGO_URL', "mongodb+srv://Zeherin:Zeherin@cluster0.2t0eici.mongodb.net/?retryWrites=true&w=majority")
